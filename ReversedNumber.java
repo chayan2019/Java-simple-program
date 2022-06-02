@@ -8,7 +8,7 @@ public class ReversedNumber {
 
         Scanner scanner= new Scanner(System.in);
         int number = scanner.nextInt();
-        int divident,remainder,result=0;
+        int remainder,result=0;
 
         while(number!=0){
               

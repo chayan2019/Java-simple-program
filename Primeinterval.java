@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Primeinterval {
 
     public static void main(String[] args) {
-        System.out.println("How to calcualte DigitCount");
+        System.out.println("Display Prime Numbers Between two Intervals");
         Scanner _scanner=new Scanner(System.in);
         int low = _scanner.nextInt();
         int high = _scanner.nextInt();
@@ -15,7 +15,7 @@ public class Primeinterval {
                     break;
                 }
             }
-            if (!flag){
+            if (!flag && low != 0 && low != 1){
                 System.out.println("Low Counts : "+low);
             }
             low++;
