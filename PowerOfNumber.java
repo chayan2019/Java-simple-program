@@ -1,0 +1,13 @@
+public class PowerOfNumber {
+
+    public static void main(String[] args) {
+        System.out.println("How to do Power of number!!");
+        int base =3 , exponential=4;
+        long result=1;
+        while(exponential!=0){
+            result=result*base;
+            --exponential;
+        }
+        System.out.println("Power of Number" +result);
+    }
+}
