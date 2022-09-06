@@ -5,7 +5,6 @@ public class OddEvenNumber {
     public static void main(String[] args) {
 
         // How to check given Number is odd or even
-        
         System.out.println("Please enter Input value : ");
         // create reader instance and take infrom from keyboad through user
         Scanner _Scanner=new Scanner(System.in);
