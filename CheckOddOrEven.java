@@ -10,7 +10,6 @@ public class CheckOddOrEven {
         char checkCharacter= 'w';
         if(checkCharacter == 'a' || checkCharacter == 'e' || checkCharacter == 'i' || checkCharacter == 'o' || checkCharacter == 'u' ){
             System.out.println(checkCharacter + " is vowel");
-
         }else{
             System.out.println(checkCharacter + " is consonant");
 
