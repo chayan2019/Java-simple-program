@@ -13,5 +13,4 @@ public class QuotientRemainder {
         System.out.println("Remainder is : " +remainder);
 
     }
-
 }
