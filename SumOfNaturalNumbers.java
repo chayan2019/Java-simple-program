@@ -6,6 +6,6 @@ public class SumOfNaturalNumbers {
         for(int i=0;i<100;i++){
             sumTotal=sumTotal+i;
         } 
-        System.out.println("Total sum"+sumTotal);
+        System.out.println("Total sum :"+sumTotal);
     }
 }
