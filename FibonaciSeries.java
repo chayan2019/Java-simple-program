@@ -11,9 +11,9 @@ public class  FibonaciSeries {
     int firstNum=0;
     int secNumber=1;
     int next=0;
-    
+
     for (int i = 0; i < n; i++) {
-        System.out.print(firstNum + ", ");
+        System.out.print(secNumber + ", ");
         next=firstNum+secNumber;
         firstNum=secNumber;
         secNumber=next;
