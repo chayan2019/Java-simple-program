@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PalindromeString {
 
     public static void main(String[] args) {
-        System.out.println("How to check Plaimdrome of given number:");
+        System.out.println("How to check Plaimdrome of given String:");
         Scanner scanner=new Scanner(System.in);
         String originalString= scanner.next();//chayan
         String reversedString="";
