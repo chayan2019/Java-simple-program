@@ -13,6 +13,7 @@ public class CheckPrimeOrNot {
                 break;
             }
         } 
+        
         if(!checkPrime){
             System.out.println("prime Number");
         }else{
