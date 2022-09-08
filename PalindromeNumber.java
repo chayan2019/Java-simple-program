@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PalindromeNumber {
 
     public static void main(String[] args) {
-        System.out.println("How to do factorial of given number:");
+        System.out.println("How to check Plaimdrome of given number:");
         Scanner scanner=new Scanner(System.in);
         int originalNumber= scanner.nextInt();
         int reversedNum=0 , num=0;
