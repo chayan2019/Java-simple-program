@@ -18,7 +18,7 @@ public class OneDArray {
       newArray[3]=1003;
       newArray[4]=1004;
 
-      System.out.println("One D Array :    " +Arrays.toString(newArray));
+      System.out.println("One D ArrayS :    " +Arrays.toString(newArray));
 
     }
     
