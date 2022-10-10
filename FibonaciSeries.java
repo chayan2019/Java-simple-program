@@ -6,8 +6,10 @@ public class  FibonaciSeries {
 
     System.out.println("How to print Fibinaci Series");
     Scanner scanner=new Scanner(System.in);
+    
     int n = scanner.nextInt();
     //Fibinaci Series ::--- 0,1,1,2,3,5,8,13,21,34...
+    
     int firstNum=0;
     int secNumber=1;
     int next=0;
